@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="box">
+    <h1>{{ titulo }}</h1>
+    <h3>
+      La base es: <strong> {{ numero }} </strong>
+    </h3>
+
+    <button (click)="acumular(this.base)">+5</button>
+
+    <span> {{ numero }} </span>
+
+    <button (click)="acumular(-this.base)">-5</button>
+  </div>
+</div>
